@@ -72,6 +72,7 @@ namespace App.Datos
             {
                 xmlwriter.WriteStartElement("Documento");
                 xmlwriter.WriteElementString("codigo", c.Codigo);
+                xmlwriter.WriteElementString("titulo", c.Titulo);
                 xmlwriter.WriteElementString("idiomas", c.Idiomas);
                 xmlwriter.WriteElementString("autores", c.Autores);
                 xmlwriter.WriteElementString("paginas", c.NPaginas.ToString());
