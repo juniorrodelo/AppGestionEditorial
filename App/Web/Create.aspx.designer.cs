@@ -94,6 +94,15 @@ namespace App.Web {
         protected global::System.Web.UI.WebControls.TextBox txtFechaP;
         
         /// <summary>
+        /// Control txtFechaE.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtFechaE;
+        
+        /// <summary>
         /// Control txtGenero.
         /// </summary>
         /// <remarks>

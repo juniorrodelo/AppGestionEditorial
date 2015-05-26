@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Documentos>
   <Documento>
     <codigo>8989</codigo>
@@ -8,17 +8,8 @@
     <editorial>Santillana</editorial>
     <fechaPublicacion>Enero 2015</fechaPublicacion>
     <genero>Literario</genero>
-    <formatos>multimedia,</formatos>
-    <permisos> Guardar, Escuchar, Visualizar,</permisos>
-  </Documento>
-  <Documento>
-    <codigo>8989</codigo>
-    <idiomas>Ingles / español</idiomas>
-    <autores>Juan Matta</autores>
-    <paginas>23</paginas>
-    <editorial>Santillana</editorial>
-    <fechaPublicacion>Enero 2015</fechaPublicacion>
-    <genero>Literario</genero>
+    <volumen>454</volumen>
+    <articulos>3434</articulos>
     <formatos>multimedia,</formatos>
     <permisos> Guardar, Escuchar, Visualizar,</permisos>
   </Documento>

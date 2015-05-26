@@ -9,6 +9,7 @@ namespace App.Modelo
     {
         #region "Atributos"
         private int volumen;
+        private int articulos;
         #endregion
 
         #region "Propiedades"
@@ -16,6 +17,12 @@ namespace App.Modelo
         {
             get { return volumen; }
             set { volumen = value; }
+        }
+
+        public int Articulos
+        {
+            get { return articulos; }
+            set { articulos = value; }
         }
         #endregion
 
@@ -25,12 +32,14 @@ namespace App.Modelo
             : base()
         {
             this.volumen = 5;
+            this.articulos = 5;
         }
 
-        public Revistas(string codigo, string titulo, string idiomas, string autores, int pagina, string editorial, string fecha_publicidad, string genero, string fecha_edicion, int volumen) :
+        public Revistas(string codigo, string titulo, string idiomas, string autores, int pagina, string editorial, string fecha_publicidad, string genero, string fecha_edicion, int volumen, int articulos) :
             base(codigo, titulo, idiomas, autores, pagina, editorial, fecha_publicidad, genero, fecha_edicion)
         {
             this.volumen = volumen;
+            this.articulos = articulos;
         }
 
         #endregion

@@ -10,7 +10,8 @@ namespace App.Modelo
         #region "Atributos"
 
         private int capitulos;
-        private int nivel;
+        private int tomos;
+        private string nivel;
 
         #endregion
 
@@ -22,10 +23,16 @@ namespace App.Modelo
             set { capitulos = value; }
         }
 
-        public int Nivel
+        public string Nivel
         {
             get { return nivel; }
             set { nivel = value; }
+        }
+
+        public int Tomos
+        {
+            get { return tomos; }
+            set { tomos = value; }
         }
         #endregion
 
@@ -34,14 +41,16 @@ namespace App.Modelo
             : base()
         {
             this.capitulos = 5;
-            this.nivel = 4;
+            this.tomos = 5;
+            this.nivel = "";
         }
 
-        public Libros(string codigo, string titulo, string idiomas, string autores, int pagina, string editorial, string fecha_publicidad, string genero, string fecha_edicion, int capitulos, int nivel) :
+        public Libros(string codigo, string titulo, string idiomas, string autores, int pagina, string editorial, string fecha_publicidad, string genero, string fecha_edicion, int capitulos, int tomos, string nivel) :
             base(codigo, titulo, idiomas, autores, pagina, editorial, fecha_publicidad, genero, fecha_edicion)
         {
             this.capitulos = capitulos;
             this.nivel = nivel;
+            this.tomos = tomos;
         }
         #endregion
 

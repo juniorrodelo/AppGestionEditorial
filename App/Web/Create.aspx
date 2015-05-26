@@ -46,6 +46,11 @@
                 <label class="control-label" >Fecha Publicacion</label>
                  <asp:TextBox ID="txtFechaP" runat="server" class="form-control"  required="required"></asp:TextBox>
              </div>
+
+                <div class="form-group">
+                <label class="control-label" >Fecha Edición</label>
+                 <asp:TextBox ID="txtFechaE" runat="server" class="form-control"  required="required"></asp:TextBox>
+             </div>
             
             <div class="form-group">
                 <label class="control-label" >Genero</label>

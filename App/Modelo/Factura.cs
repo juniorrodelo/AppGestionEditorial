@@ -10,7 +10,7 @@ namespace App.Modelo
         #region "Atributos"
         private int id;
         private string fecha;
-        private List<Documentos> items = new List<Documentos>();
+        private List<Libros> items = new List<Libros>();
         private string socursal;
         private string estado;
         #endregion
@@ -29,7 +29,7 @@ namespace App.Modelo
             set { fecha = value; }
         }
 
-        public List<Documentos> Items
+        public List<Libros> Items
         {
             get { return items; }
             set { items = value; }
